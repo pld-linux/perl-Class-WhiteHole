@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	WhiteHole
+%define		pdir	Class
+%define		pnam	WhiteHole
 Summary:	Class::WhiteHole - prevent from inheriting AUTOLOAD
 Summary(pl):	Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
 Name:		perl-Class-WhiteHole
