@@ -6,7 +6,8 @@ Summary(pl):	%{pdir}::%{pnam} - ochrona przed dziedziczeniem AUTOLOAD
 Name:		perl-Class-WhiteHole
 Version:	0.04
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	43b986ad7d5d186a9a43d2d69a2ef327
