@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	WhiteHole
@@ -36,7 +40,6 @@ Czasami chcesz unikn±æ przypadkowego dziedziczenia.  W takim wypadku,
 odziedzicz po Class::WhiteHole.  Ka¿de wywo³anie nieistniej±cej metody
 spowoduje zwyczajn± informacjê o b³êdzie perla.
 
-
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
@@ -44,7 +47,8 @@ spowoduje zwyczajn± informacjê o b³êdzie perla.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-#%%{__make} test
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
