@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	WhiteHole
-Summary:	%{pdir}::%{pnam} - prevent from inheriting AUTOLOAD
-Summary(pl):	%{pdir}::%{pnam} - ochrona przed dziedziczeniem AUTOLOAD
+Summary:	Class::WhiteHole - prevent from inheriting AUTOLOAD
+Summary(pl):	Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
 Name:		perl-Class-WhiteHole
 Version:	0.04
 Release:	1
