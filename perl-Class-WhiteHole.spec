@@ -38,7 +38,7 @@ nie powiedzie siê.
 
 Czasami chcesz unikn±æ przypadkowego dziedziczenia.  W takim wypadku,
 odziedzicz po Class::WhiteHole.  Ka¿de wywo³anie nieistniej±cej metody
-spowoduje zwyczajn± informacjê o b³êdzie perla.
+spowoduje zwyczajn± informacjê o b³êdzie Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
