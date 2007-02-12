@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	WhiteHole
 Summary:	Class::WhiteHole - prevent from inheriting AUTOLOAD
-Summary(pl):	Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
+Summary(pl.UTF-8):   Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
 Name:		perl-Class-WhiteHole
 Version:	0.04
 Release:	1
@@ -30,15 +30,15 @@ Sometimes you want to avoid this accidental inheritance.  In that case,
 inherit from Class::WhiteHole.  All unhandled methods will produce normal
 Perl error messages.
 
-%description -l pl
-Istnieje mo¿liwo¶æ przypadkowego odziedziczenia metody AUTOLOAD.  Czêsto
-zdarzy siê to, gdy jedna z ³añcucha klas stosuje AutoLoader lub definiuje
-w³asn±.  Mo¿e to spowodowaæ dziwne komunikaty b³êdów, gdy odszukanie metody
-nie powiedzie siê.
+%description -l pl.UTF-8
+Istnieje moÅ¼liwoÅ›Ä‡ przypadkowego odziedziczenia metody AUTOLOAD.  CzÄ™sto
+zdarzy siÄ™ to, gdy jedna z Å‚aÅ„cucha klas stosuje AutoLoader lub definiuje
+wÅ‚asnÄ….  MoÅ¼e to spowodowaÄ‡ dziwne komunikaty bÅ‚Ä™dÃ³w, gdy odszukanie metody
+nie powiedzie siÄ™.
 
-Czasami chcesz unikn±æ przypadkowego dziedziczenia.  W takim wypadku,
-odziedzicz po Class::WhiteHole.  Ka¿de wywo³anie nieistniej±cej metody
-spowoduje zwyczajn± informacjê o b³êdzie Perla.
+Czasami chcesz uniknÄ…Ä‡ przypadkowego dziedziczenia.  W takim wypadku,
+odziedzicz po Class::WhiteHole.  KaÅ¼de wywoÅ‚anie nieistniejÄ…cej metody
+spowoduje zwyczajnÄ… informacjÄ™ o bÅ‚Ä™dzie Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
