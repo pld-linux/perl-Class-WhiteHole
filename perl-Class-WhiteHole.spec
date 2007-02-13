@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	WhiteHole
 Summary:	Class::WhiteHole - prevent from inheriting AUTOLOAD
-Summary(pl.UTF-8):   Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
+Summary(pl.UTF-8):	Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
 Name:		perl-Class-WhiteHole
 Version:	0.04
 Release:	1
