@@ -8,7 +8,7 @@ Summary:	Class::WhiteHole - prevent from inheriting AUTOLOAD
 Summary(pl.UTF-8):	Class::WhiteHole - ochrona przed dziedziczeniem AUTOLOAD
 Name:		perl-Class-WhiteHole
 Version:	0.04
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
